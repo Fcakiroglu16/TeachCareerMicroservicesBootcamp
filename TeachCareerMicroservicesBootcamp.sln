@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachCareer.Publisher", "TeachCareer.Publisher\TeachCareer.Publisher.csproj", "{D6D2D034-B0C4-48AF-AA1B-B7163DD48B9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachCareer.Subscriber", "TeachCareer.Subscriber\TeachCareer.Subscriber.csproj", "{CF32CA59-DE77-43E3-A3B2-3D85F84EA4A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D2D034-B0C4-48AF-AA1B-B7163DD48B9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D2D034-B0C4-48AF-AA1B-B7163DD48B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D2D034-B0C4-48AF-AA1B-B7163DD48B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D2D034-B0C4-48AF-AA1B-B7163DD48B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF32CA59-DE77-43E3-A3B2-3D85F84EA4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF32CA59-DE77-43E3-A3B2-3D85F84EA4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF32CA59-DE77-43E3-A3B2-3D85F84EA4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF32CA59-DE77-43E3-A3B2-3D85F84EA4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {368839DC-A4F6-4ADC-AFCA-10793C183930}
+	EndGlobalSection
+EndGlobal
