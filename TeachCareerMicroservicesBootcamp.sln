@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice2.API", "Micros
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A093BC08-E389-4CFB-86C8-6BAE3F93607E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice3.API", "Microservice3.API\Microservice3.API.csproj", "{A23E968F-DDEC-4770-9D88-5ACC48F9DE5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice3.API", "Microservice3.API\Microservice3.API.csproj", "{A23E968F-DDEC-4770-9D88-5ACC48F9DE5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResiliencyMicroservice2.API", "ResiliencyMicroservice2.API\ResiliencyMicroservice2.API.csproj", "{0C6D31C6-F13C-4428-9C12-BAB9504F3859}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResiliencyMicroservice1.API", "ResiliencyMicroservice1.API\ResiliencyMicroservice1.API.csproj", "{BCB00F52-0929-4B30-9F49-7089781745BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{A23E968F-DDEC-4770-9D88-5ACC48F9DE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23E968F-DDEC-4770-9D88-5ACC48F9DE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23E968F-DDEC-4770-9D88-5ACC48F9DE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6D31C6-F13C-4428-9C12-BAB9504F3859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6D31C6-F13C-4428-9C12-BAB9504F3859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6D31C6-F13C-4428-9C12-BAB9504F3859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6D31C6-F13C-4428-9C12-BAB9504F3859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB00F52-0929-4B30-9F49-7089781745BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB00F52-0929-4B30-9F49-7089781745BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB00F52-0929-4B30-9F49-7089781745BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB00F52-0929-4B30-9F49-7089781745BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
