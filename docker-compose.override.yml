@@ -15,8 +15,9 @@ services:
       - C:/certificate:/image_certificate
   microservice1.api:
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_ENVIRONMENT=Production
       - ASPNETCORE_HTTP_PORTS=8080
+      - ConnectionStrings:SqlServer=Server=sqlserver_data,1433;Database=TechDb;User=Sa;Password=Password12*;Trusted_Connection=False;TrustServerCertificate=True;Integrated Security=False
     ports:
       - "5020:8080"
   sqlserver_data:
@@ -27,6 +28,6 @@ services:
    ports:
     - 1433:1433
    volumes:
-    - c:/sql_data:/var/opt/mssql/data
+    - sql_data:/var/opt/mssql/data
    
    

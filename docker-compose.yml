@@ -13,3 +13,5 @@ services:
       dockerfile: Microservice.API/Dockerfile
   sqlserver_data:
     image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+volumes:
+  sql_data:
