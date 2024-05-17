@@ -2,16 +2,18 @@ version: '3.4'
 
 services:
   microservice2.api:
-    image: microservice2api:v3
+    image: fcakiroglu16/tech_micro_2:v1
     build:
       context: .
       dockerfile: Microservice2.API/Dockerfile
   microservice1.api:
-    image: microservice1api:v3
+    image: fcakiroglu16/tech_micro_1:v1
     build:
       context: .
       dockerfile: Microservice.API/Dockerfile
   sqlserver_data:
     image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+  redis_data:
+    image: redis:7.0.15
 volumes:
   sql_data:

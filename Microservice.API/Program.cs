@@ -11,8 +11,16 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer"), opt =>
+    {
+        opt.EnableRetryOnFailure(5,TimeSpan.FromSeconds(3),null);
+    });
 });
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
